@@ -1,0 +1,46 @@
+#contact-form {
+    padding-top: 90px;
+}
+
+#banniere-contact {
+    height: 200px;
+    background-position: center;
+    margin-bottom: 40px;
+}
+
+@media(min-width: 768px) {
+    #banniere-contact {
+        height: 350px;
+        background-position: center;
+        margin-bottom: 40px;
+    }
+}
+
+#nf-form-title-1,
+nf-section {
+    display: none;
+}
+
+#contact-form h3 {
+    font-family: "gotham bold", sans-serif;
+    font-size: 1.5em;
+    color: var(--main-black);
+}
+
+#contact-form p,
+#contact-form div {
+    font-family: "myriad regular", sans-serif;
+    font-size: 1em;
+    color: var(--main-black);
+}
+
+.label-bold {
+    font-weight: bold;
+}
+
+#contact-form h2 {
+    font-family: "gotham bold", sans-serif;
+    font-size: 2.5em;
+    color: var(--main-black);
+    text-transform: uppercase;
+}

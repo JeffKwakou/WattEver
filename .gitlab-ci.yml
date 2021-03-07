@@ -1,0 +1,6 @@
+deploy:
+  script:
+    - apt-get update -qq && apt-get install -y -qq lftp
+    - lftp -c "set ftp:ssl-allow no; open -u $FTP_USERNAME,$FTP_PASSWORD bk7bp.ftp.infomaniak.com; mirror -Rnev ./ ./sites/www.wattever.fr/dev/wp-content/themes/wattever2021 --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
+  only:
+    - dev

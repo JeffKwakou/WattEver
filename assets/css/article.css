@@ -1,0 +1,53 @@
+#image-presentation-article {
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+#image-presentation-article img {
+    width: 100%;
+}
+
+#liste-article {
+    margin-bottom: 20px;
+}
+
+#liste-article a {
+    font-family: "myriad regular", sans-serif;
+    font-size: 1.5em;
+    color: var(--main-black);
+}
+
+#article-section-layout h1 {
+    background-image: url("../img/slash-wattever.svg");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    height: 100px;
+    font-family: "gotham black", sans-serif;
+    font-size: 3em;
+    color: var(--main-black);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#article-section-layout h2 {
+    font-family: "gotham bold", sans-serif;
+    font-size: 1.3em;
+    color: var(--main-black);
+    margin-top: 20px;
+}
+
+#article-section-layout p {
+    font-family: "myriad regular", sans-serif;
+    font-size: 1em;
+    color: var(--main-black);
+    margin-bottom: 30px;
+}
+
+.info-article-bold {
+    font-weight: bold;
+}

@@ -1,0 +1,187 @@
+#space_banniere {
+    height: 70px;
+}
+
+
+/* BANNIERE */
+
+#professionnels_banniere {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media (min-width: 768px) {
+    #professionnels_banniere {
+        height: 650px;
+    }
+}
+
+#professionnels_banniere h1 {
+    text-transform: uppercase;
+    font-family: "gotham black", sans-serif;
+    font-size: 2.5em;
+    color: var(--main-white);
+    line-height: 1.2em;
+}
+
+@media (min-width: 768px) {
+    #professionnels_banniere h1 {
+        text-transform: uppercase;
+        font-family: "gotham black", sans-serif;
+        font-size: 4em;
+        color: var(--main-white);
+        line-height: 1em;
+    }
+}
+
+#professionnels_banniere span {
+    text-transform: uppercase;
+    font-family: "gotham black", sans-serif;
+    font-size: 0.5em;
+    color: var(--main-green);
+    background: var(--main-black);
+    padding: 10px;
+}
+
+
+/* DESCRIPTION DE LA PAGE */
+
+#professionnels_content {
+    margin-top: 60px;
+}
+
+#description_professionnels h2 {
+    text-align: center;
+    font-family: "gotham black", sans-serif;
+    font-size: 1.5em;
+    color: var(--main-black);
+}
+
+@media (min-width: 768px) {
+    #description_professionnels h2 {
+        text-align: center;
+        font-family: "gotham black", sans-serif;
+        font-size: 2em;
+        color: var(--main-black);
+    }
+}
+
+#description_professionnels p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "myriad-regular", sans-serif;
+    font-size: 0.9em;
+    color: var(--main-black);
+}
+
+@media (min-width: 768px) {
+    #description_professionnels p {
+        margin-top: 20px;
+        text-align: center;
+        font-family: "myriad-regular", sans-serif;
+        font-size: 1em;
+        color: var(--main-black);
+    }
+}
+
+
+/* DETAILS DE LA PAGE */
+
+#detail_professionnels {
+    margin-top: 80px;
+}
+
+.detail_titre_professionnels {
+    padding: 0;
+}
+
+.detail_titre_professionnels img {
+    width: 100%;
+}
+
+.detail_content_professionnels {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.professionnels-slash-title {
+    padding: 20px 0;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+
+.detail_content_professionnels h3 {
+    font-family: "gotham black", sans-serif;
+    font-size: 1.5em;
+    color: var(--main-black);
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .detail_content_professionnels h3 {
+        font-family: "gotham black", sans-serif;
+        font-size: 2em;
+        color: var(--main-black);
+        text-transform: uppercase;
+    }
+}
+
+.detail_content_professionnels p {
+    font-family: "myriad regular", sans-serif;
+    font-size: 0.9em;
+    color: var(--main-black);
+}
+
+
+/* TARIFS */
+
+#professionnels_tarif {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+#professionnels_tarif h3 {
+    font-family: "gotham black", sans-serif;
+    font-size: 2em;
+    color: var(--main-black);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #professionnels_tarif h3 {
+        font-family: "gotham black", sans-serif;
+        font-size: 1.5em;
+        color: var(--main-black);
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+#professionnels_tarif p {
+    font-family: "myriad regular", sans-serif;
+    font-size: 1em;
+    color: var(--main-black);
+    text-align: center;
+}
+
+#professionnels_tarif div {
+    text-align: center;
+}
+
+#professionnels_tarif a {
+    font-family: "gotham black", sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: var(--main-green);
+    color: var(--main-black);
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+#professionnels_tarif a:hover {
+    text-decoration: none;
+    background-color: var(--main-green-hover);
+}

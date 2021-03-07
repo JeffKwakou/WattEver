@@ -1,0 +1,40 @@
+#tester-section {
+    padding-top: 90px;
+}
+
+#banniere-tester {
+    height: 400px;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+#nf-form-title-2,
+nf-section {
+    display: none;
+}
+
+#contact-form h3 {
+    font-family: "gotham bold", sans-serif;
+    font-size: 1.5em;
+    color: var(--main-black);
+}
+
+#tester-section p {
+    font-family: "myriad regular", sans-serif;
+    font-size: 1em;
+    color: var(--main-black);
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#tester-section h1 {
+    background-image: url(../img/slash-wattever.svg);
+    background-repeat: no-repeat;
+    padding: 20px 15px;
+    font-family: "gotham bold", sans-serif;
+    font-size: 2.5em;
+    color: var(--main-black);
+    text-transform: uppercase;
+    margin: 0;
+}

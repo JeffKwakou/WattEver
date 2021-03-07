@@ -1,0 +1,58 @@
+#list-article-actualites {
+    padding-top: 90px;
+}
+
+#list-article-actualites h1 {
+    background-image: url("../img/slash-wattever.svg");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    height: 100px;
+    font-family: "gotham black", sans-serif;
+    font-size: 3em;
+    color: var(--main-black);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.item-article-list {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.item-article-list img {
+    width: 100%;
+}
+
+.item-article-list h2 {
+    font-family: "gotham black", sans-serif;
+    font-size: 2em;
+    color: var(--main-black);
+    text-transform: uppercase;
+}
+
+.item-article-list p {
+    font-family: "myriad regular", sans-serif;
+    font-size: 1em;
+    color: var(--main-black);
+}
+
+#en-savoir-plus {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#en-savoir-plus a {
+    background-color: var(--main-black);
+    padding: 10px;
+    font-family: "myriad regular", sans-serif;
+    font-size: 1.2em;
+    color: var(--main-white);
+}
+
+#en-savoir-plus a:hover {
+    color: var(--main-green);
+    text-decoration: none;
+}
